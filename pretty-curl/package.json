@@ -1,0 +1,19 @@
+{
+  "name": "pretty-curl",
+  "version": "1.0.0",
+  "description": "Pretty Curl for JSON response",
+  "main": "index.js",
+  "bin" : {
+    "curl": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Marc Despland",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "yargs": "^15.3.1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "schema-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --inspect-brk=0.0.0.0 index.js",
+    "start": "node index.js"
+  },
+  "author": "Marc Despland",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ajv": "^6.12.2",
+    "axios": "^0.19.2",
+    "json-schema-parser": "^0.1.0",
+    "yargs": "^15.3.1"
+  }
+}

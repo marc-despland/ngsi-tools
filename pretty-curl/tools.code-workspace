@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../schema-validator"
+		},
+		{
+			"path": "../kafka-pixel-client"
+		}
+	]
+}

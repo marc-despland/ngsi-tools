@@ -1,0 +1,17 @@
+{
+  "name": "kafka-pixel-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --inspect-brk=0.0.0.0 index.js",
+    "start": "node index.js"
+  },
+  "author": "Marc Despland",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "kafka-node": "^5.0.0",
+    "yargs": "^15.3.1"
+  }
+}
